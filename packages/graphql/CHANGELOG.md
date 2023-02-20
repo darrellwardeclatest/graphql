@@ -1,5 +1,20 @@
 # @neo4j/graphql
 
+## 3.17.0
+
+### Minor Changes
+
+-   [#2442](https://github.com/neo4j/graphql/pull/2442) [`6f0d9c06d`](https://github.com/neo4j/graphql/commit/6f0d9c06d9b34d30211bdf703bb0b26844033179) Thanks [@darrellwarde](https://github.com/darrellwarde)! - Experimental support for Apollo Federation. Call `getSubgraphSchema()` to allow the schema to be used in a supergraph. The API is still being refined and will be subject to breaking changes.
+
+### Patch Changes
+
+-   [#2620](https://github.com/neo4j/graphql/pull/2620) [`6421735f0`](https://github.com/neo4j/graphql/commit/6421735f014f0e2edacb1be7ba15c8819a1a0adb) Thanks [@mhlz](https://github.com/mhlz)! - Selection of fields on interfaces in unions fail in some cases
+
+-   [#2879](https://github.com/neo4j/graphql/pull/2879) [`1902f903f`](https://github.com/neo4j/graphql/commit/1902f903f89453f2d17be909e2b05f1c12ac39a9) Thanks [@MacondoExpress](https://github.com/MacondoExpress)! - Fixed a bug that prevents to return of the correct SelectionSet when a nested abstract field is null.
+
+-   Updated dependencies [[`c436ab040`](https://github.com/neo4j/graphql/commit/c436ab0403a45395594728e6fc192034712f45af)]:
+    -   @neo4j/cypher-builder@0.2.1
+
 ## 3.16.1
 
 ### Patch Changes

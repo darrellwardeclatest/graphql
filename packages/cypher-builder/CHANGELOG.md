@@ -1,5 +1,11 @@
 # @neo4j/cypher-builder
 
+## 0.2.1
+
+### Patch Changes
+
+-   [#2868](https://github.com/neo4j/graphql/pull/2868) [`c436ab040`](https://github.com/neo4j/graphql/commit/c436ab0403a45395594728e6fc192034712f45af) Thanks [@angrykoala](https://github.com/angrykoala)! - Add timezone parameter to temporal functions
+
 ## 0.2.0
 
 ### Minor Changes
